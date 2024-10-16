@@ -1,0 +1,48 @@
+.mainDashboard {
+  display: flex;
+}
+.category-div {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px; /* Increased padding */
+  margin: 15px; /* Increased margin */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: border 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px; /* Increased height */
+}
+
+.category-div h3 {
+  font-size: 1.2em;
+  height: 60px; /* Increased height for title */
+  overflow: hidden;
+  margin-bottom: 10px; /* Add more space below the title */
+}
+
+.category-div p {
+  font-size: 1em;
+  height: 40px; /* Increased height for vote text */
+  margin: 5px 0;
+}
+
+.category-div:hover {
+  border: 5px solid gold; /* Change border color on hover */
+}
+.main-template {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardItem {
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: border 0.3s ease-in-out; /* Smooth transition */
+  cursor: pointer;
+}
+.cardItem:hover {
+  border: gold 3px solid;
+}
